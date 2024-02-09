@@ -10,38 +10,15 @@
     justify-content: center;
 }
 
+#contact {
+    width: 100vw;
+    max-width: 60rem;
+}
+
 .contactPageTitle {
     font-size: 3rem;
     margin-bottom: 1rem;
-}
-
-.clientDesc {
-    font-weight: 300;
-    font-size: 1rem;
-}
-
-.clientImgs {
-    margin: 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.clientImg {
-    object-fit: cover;
-    width: 23%;
-    min-width: 9rem;
-    margin: auto;
-    padding: 0.25rem;
-}
-
-#clients {
-    padding: 2rem;
-}
-
-.contactDesc {
-    padding: 1rem;
-    font-size: medium;
-    font-weight: 300;
+    padding-top: 2rem;
 }
 
 .contactForm {
@@ -84,4 +61,42 @@
     height: 3rem;
     width: 3rem;
     margin: 0 0.75rem;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 1024px) {
+    #clients {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .educations, .credentials {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .skillBarText p {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .educations, .credentials {
+        width: 90%; /* Adjust width for mobile */
+    }
+
+    .skillBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    .skillBarText p {
+        font-size: 3.5vw;
+    }
+
+    .skillBarText h2 {
+        font-size: 4.5vw;
+    }
 }

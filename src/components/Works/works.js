@@ -1,26 +1,27 @@
 import React from "react";
 import "./works.css";
-import Portfolio1 from "../../assets/portfolio-1.png"
-import Portfolio2 from "../../assets/portfolio-2.png"
-import Portfolio3 from "../../assets/portfolio-3.png"
-import Portfolio4 from "../../assets/portfolio-4.png"
-import Portfolio5 from "../../assets/portfolio-5.png"
-import Portfolio6 from "../../assets/portfolio-6.png"
+import BLOCKLORDS from "../../assets/BLOCKLORDS.png";
+import MINIMINERS from "../../assets/MINIMINERS.png";
+import MOONSCAPE from "../../assets/MOONSCAPE.png";
+import SEASCAPE from "../../assets/SEASCAPE.png";
+import SAFE from "../../assets/SAFE.png";
+import SEADEX from "../../assets/SEADEX.png";
+
+
 
 const Works = () => {
     return (
         <section id="works">
-            <h2 className="worksTitle">My Portfolio</h2>
-            <span className="worksDesc">I take pride in my work. Athought for now this is only temporary photos I will provide mine tomorow when i have time!</span>
+            <h2 className="worksTitle">Previous Projects</h2>
+            <span className="worksDesc">I take pride in my work. These are some of the porjects I worked on</span>
             <div className="worksImgs">
-                <img src={Portfolio1} alt="Portfolio1" className="worksImg"/>
-                <img src={Portfolio2} alt="Portfolio2" className="worksImg"/>
-                <img src={Portfolio3} alt="Portfolio3" className="worksImg"/>
-                <img src={Portfolio4} alt="Portfolio4" className="worksImg"/>
-                <img src={Portfolio5} alt="Portfolio5" className="worksImg"/>
-                <img src={Portfolio6} alt="Portfolio6" className="worksImg"/>
+                <img src={BLOCKLORDS} alt="BLOCKLORDS" className="worksImg"/>
+                <img src={MINIMINERS} alt="MINIMINERS" className="worksImg"/>
+                <img src={MOONSCAPE} alt="MOONSCAPE" className="worksImg"/>
+                <img src={SEASCAPE} alt="SEASCAPE" className="worksImg"/>
+                <img src={SAFE} alt="SAFE" className="worksImg"/>
+                <img src={SEADEX} alt="SEADEX" className="worksImg"/>
             </div>
-            <button className="worksBtn">See More</button>
         </section>
     );
 }

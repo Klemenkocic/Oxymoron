@@ -11,10 +11,14 @@ const Navbar = () => {
         <nav className="navbar">
             <img src={logo} alt="Logo" className="logo" />
             <div className="desktopMenu">
-                <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
+                <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Me</Link>
                 <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500}className="desktopMenuListItem">About</Link>
-                <Link activeClass="active" to="works" spy={true} smooth={true} offset={-50} duration={500}className="desktopMenuListItem">Portfolio</Link>
-                <Link activeClass="active" to="clients" spy={true} smooth={true} offset={-50} duration={500}className="desktopMenuListItem">Clients</Link>
+                <Link activeClass="active" to="works" spy={true} smooth={true} offset={-50} duration={500}className="desktopMenuListItem">Projects</Link>
+                <Link activeClass="active" to="education" spy={true} smooth={true} offset={-50} duration={500}className="desktopMenuListItem">Education</Link>
+                <Link activeClass="active" to="credentials" spy={true} smooth={true} offset={-50} duration={500}className="desktopMenuListItem">Credentials</Link>
+                <Link activeClass="active" to="experience" spy={true} smooth={true} offset={-50} duration={500}className="desktopMenuListItem">Experience</Link>
+                <Link activeClass="active" to="fun" spy={true} smooth={true} offset={-50} duration={500}className="desktopMenuListItem">Fun</Link>
+
             </div>
             <button className="desktopMenuBtn" onClick={() => {
                 document.getElementById("contact").scrollIntoView({behavior: "smooth"});
@@ -23,10 +27,13 @@ const Navbar = () => {
             
             <img src={menu} alt="Menu" className="mobMenu" onClick={()=>setShowMenu(!showMenu)}/>
             <div className="navMenu" style={{display: showMenu? "flex":"none"}}>
-                <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
+                <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Me</Link>
                 <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500}className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
-                <Link activeClass="active" to="works" spy={true} smooth={true} offset={-50} duration={500}className="listItem" onClick={()=>setShowMenu(false)}>Portfolio</Link>
-                <Link activeClass="active" to="clients" spy={true} smooth={true} offset={-50} duration={500}className="listItem" onClick={()=>setShowMenu(false)}>Clients</Link>
+                <Link activeClass="active" to="works" spy={true} smooth={true} offset={-50} duration={500}className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
+                <Link activeClass="active" to="education" spy={true} smooth={true} offset={-50} duration={500}className="listItem" onClick={()=>setShowMenu(false)}>Education</Link>
+                <Link activeClass="active" to="credentials" spy={true} smooth={true} offset={-50} duration={500}className="listItem" onClick={()=>setShowMenu(false)}>Credentials</Link>
+                <Link activeClass="active" to="experience" spy={true} smooth={true} offset={-50} duration={500}className="listItem" onClick={()=>setShowMenu(false)}>Experience</Link>
+                <Link activeClass="active" to="fun" spy={true} smooth={true} offset={-50} duration={500}className="listItem" onClick={()=>setShowMenu(false)}>Fun</Link>
                 <Link activeClass="active" to="Contact" spy={true} smooth={true} offset={-50} duration={500}className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
             </div>
         </nav>

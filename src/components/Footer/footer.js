@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
     return (
         <footer className="footer">
-            Copyright &#69; 2024 Big Jungus. All rights received.
+            Website made by me :) Weekly releases!
         </footer>
     );
 }
