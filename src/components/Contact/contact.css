@@ -51,6 +51,10 @@
     margin: 2rem;
 }
 
+.submitBtn:hover {
+    background-color: yellow;
+}
+
 .links {
     display: flex;
     flex-wrap: wrap;
