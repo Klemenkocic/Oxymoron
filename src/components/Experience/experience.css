@@ -1,0 +1,83 @@
+#experience {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgb(30, 30, 30);
+    color: white;
+}
+
+.experience-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+.experience-title {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.experience-intro {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+    margin-bottom: 3rem; 
+
+}
+
+.experience-content {
+    background-color: rgb(50, 50, 50); 
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #555; 
+}
+
+.experience-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+
+.experience-location {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.experience-duration {
+    font-style: italic; 
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.experience-descriptions {
+    font-weight: 100 !important; /* Overrides other font-weight styles */
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: left;
+}
+
+
+.experience-descriptions li {
+    font-size: 0.875rem;
+    margin-bottom: 5px;
+}
+
+.experience-item:last-child {
+    border-bottom: none;
+}
+
+  .experience-descriptions li:last-child {
+    margin-bottom: 0;
+}
+
+.experience-item:last-child {
+    padding-bottom: 0;
+}

@@ -1,9 +1,9 @@
 import React from "react";
 import "./skills.css";
-import AppDesign from "../../assets/app-design.png";
 import PM from "../../assets/PM.png";
 import data from "../../assets/data.png";
-import block from "../../assets/block.png"
+import block from "../../assets/block.png";
+import nice from "../../assets/NICE.png";
 
 
 const Skills = () => {
@@ -34,7 +34,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="skillBar">
-                    <img src={AppDesign} alt="AppDesign" className="skillBarImg"/>
+                    <img src={nice} alt="nice" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>BEING NICE!</h2>
                         <p>My professional repertoire extends beyond technical skills to include a genuine commitment to empathy and human connection. With a history of mentoring and fostering team growth, I prioritize creating an environment where collaboration and understanding are as fundamental as the technology we build upon.</p>

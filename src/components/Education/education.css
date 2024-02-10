@@ -1,0 +1,83 @@
+#education {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.educationTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.educationDesc {
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+
+.educationBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.educationBar {
+    background: rgb(50, 50, 50);
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.educationBarImg {
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    margin-right: 2rem;
+    margin-top: 0.25rem;
+    border-radius: 1rem;
+}
+
+.educationBarText > p {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.educationBarText .date {
+    font-style: italic; /* Tilts the 'date' text */
+}
+
+.educationBarText .university {
+    font-weight: bold; 
+}
+
+/* Responsive Styles */
+@media screen and (max-width:720px) {
+    .educationBarText > p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .educationBarText > p {
+        font-size: 3vw;
+    }
+    .educationBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .educationBarText {
+        font-size: 5vw;
+    }
+}
