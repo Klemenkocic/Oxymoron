@@ -14,7 +14,7 @@ const Education = () => {
                 <div className="educationBar">
                     <img src={SEB} alt="SEB" className="educationBarImg"/>
                     <div className="educationBarText">
-                        <h2>Masters in Business Intelligence</h2>
+                        <h2>MASTERS IN BUSINESS INTELLIGENCE</h2>
                         <p className="date">Currently Enrolled</p>
                         <p className="university">University of Ljubljana</p>
                         <p>Pursuing a Master's in Business Intelligence and Business/Office Automation/Technology to harness the power of IT for strategic decision-making and operational efficiency.</p>
