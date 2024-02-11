@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.246f43c6.css",
+    "main.js": "/static/js/main.6dffedda.js",
+    "static/media/BLOCKLORDS.png": "/static/media/BLOCKLORDS.8cd5f13b2d770242eabf.png",
+    "static/media/MOONSCAPE.png": "/static/media/MOONSCAPE.9b2be8adeb02d1b95ad6.png",
+    "static/media/MINIMINERS.png": "/static/media/MINIMINERS.e91e8a071d2db76c3c35.png",
+    "static/media/SAFE.png": "/static/media/SAFE.49fa8a5dd40bc0731862.png",
+    "static/media/SEADEX.png": "/static/media/SEADEX.aac0a7e66b18a13a2bf1.png",
+    "static/media/image.png": "/static/media/image.74f2a905019f607854ef.png",
+    "static/media/Klemen Kocic CV.pdf": "/static/media/Klemen Kocic CV.54f8bb0388b347454d4e.pdf",
+    "static/media/SEASCAPE.png": "/static/media/SEASCAPE.16339b06baba4d83823d.png",
+    "static/media/PM.png": "/static/media/PM.f23bcbd2c9a53f0e901a.png",
+    "static/media/block.png": "/static/media/block.56763c04b7f02d1c600e.png",
+    "static/media/NICE.png": "/static/media/NICE.86b4b60ec067f131ebdf.png",
+    "static/media/logo.png": "/static/media/logo.06ed13890e5267482457.png",
+    "static/media/data.png": "/static/media/data.9b7665d64d58e858e223.png",
+    "index.html": "/index.html",
+    "main.246f43c6.css.map": "/static/css/main.246f43c6.css.map",
+    "main.6dffedda.js.map": "/static/js/main.6dffedda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.246f43c6.css",
+    "static/js/main.6dffedda.js"
+  ]
+}
