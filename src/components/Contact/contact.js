@@ -2,10 +2,9 @@ import React, { useRef } from "react";
 import "./contact.css";
 import emailjs from '@emailjs/browser';
 
-import FacebookIcon from "../../assets/facebook-icon.png";
 import TwitterIcon from "../../assets/twitter.png";
-import InstagramIcon from "../../assets/instagram.png";
-import YoutubeIcon from "../../assets/youtube.png";
+import GithubIcon from "../../assets/git.png";
+import LinkedInIcon from "../../assets/linkedin.png";
 
 const Contact = () => {
     const form = useRef();
@@ -32,10 +31,15 @@ const Contact = () => {
                     <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
                     <button type="submit" value="Send" className="submitBtn">Submit</button>
                     <div className="links">
-                        <img src={FacebookIcon} alt="Facebook" className="link"/>
-                        <img src={TwitterIcon} alt="Twitter" className="link"/>
-                        <img src={YoutubeIcon} alt="Youtube" className="link"/>
-                        <img src={InstagramIcon} alt="Instagram" className="link"/>
+                        <a href="https://www.linkedin.com/in/klemen-kocic/" target="_blank" rel="noopener noreferrer">
+                            <img src={LinkedInIcon} alt="LinkedIn" className="link"/>
+                        </a>
+                        <a href="https://twitter.com/koci_kocic" target="_blank" rel="noopener noreferrer">
+                            <img src={TwitterIcon} alt="Twitter" className="link"/>
+                        </a>
+                        <a href="https://github.com/Klemenkocic" target="_blank" rel="noopener noreferrer">
+                            <img src={GithubIcon} alt="GitHub" className="link"/>
+                        </a>
                     </div>
                 </form>
             </div>

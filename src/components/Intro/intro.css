@@ -44,17 +44,26 @@
 
 .btn {
     background: white;
+    color: #000; /* Text color, adjust as needed */
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 2rem;
+    cursor: pointer; /* Makes it clear the button is clickable */
+    text-decoration: none; /* Removes underline from the anchor */
+    display: inline-block; /* Helps with alignment and spacing */
+    font-size: 1rem; /* Adjust as needed */
+    width: auto; /* Or you can set a specific width */
+    max-width: 200px; /* Prevents the button from being too wide */
+    text-align: center; /* Centers the text in the button */
 }
 
-.btnImg {
-    object-fit: cover;
-    margin: 0 0.25rem;
-    height: 1rem;
+.btn:hover {
+    background: yellow; /* Button background color on hover */
+    color: #000; /* Text color on hover, adjust if needed */
 }
+
+
 
 @media screen and (max-width:840px) {
     .bg {

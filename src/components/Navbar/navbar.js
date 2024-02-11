@@ -5,11 +5,20 @@ import contactImg from "../../assets/contact.png"
 import { Link } from "react-scroll"; 
 import menu from "../../assets/menu.png";
 
+const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+};
+
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     return (
         <nav className="navbar">
-            <img src={logo} alt="Logo" className="logo" />
+
+            <img src={logo} alt="Logo" className="logo" onClick={scrollToTop} />
+
             <div className="desktopMenu">
                 <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Me</Link>
                 <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500}className="desktopMenuListItem">About</Link>
